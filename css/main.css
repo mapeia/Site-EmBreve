@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  height: 100%;
+}
+
+:root {
+  --fonte-principal: 'Space Grotesk', sans-serif;
+  --fonte-secundaria: 'Rubik', sans-serif;
+  --cinza: #F9F9F9;
+  --cinza-medio: #686868;
+  --roxo: #230065;
+  --verde: #00E77D;
+}
+
+a {
+  color: var(--roxo);
+}
+
+a:hover,
+a:focus {
+  opacity: 0.7;
+}
+
+body {
+  background-color: var(--cinza);
+  font-family: var(--fonte-principal);
+  font-size: 1.25rem;
+  color: #230065;
+}
+
+img {
+  max-width: 100%;
+}
+
+.site {
+  display: flex;
+  justify-content: space-around;
+  padding: 5vh 0 0 0;
+}
+
+.container-principal {
+  max-width: 37rem;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+}
+
+.logo {
+  width: 20rem;
+}
+
+.conteudo {
+  text-align: center;
+}
+
+.container-texto {
+  padding: 2rem;
+}
+
+.enfase {
+  font-family: var(--fonte-secundaria);
+  color: #00E77D;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  line-height: 1em;
+  margin-bottom: 1.5em;
+}
+
+p {
+  margin-bottom: 1.5em;
+}
+
+figure img {
+  display: block;
+}
+
+figure figcaption {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  text-align: right;
+  color: var(--cinza-medio);
+  padding: 0.5em
+}
+
+figure figcaption a {
+  color: var(--cinza-medio);
+}
